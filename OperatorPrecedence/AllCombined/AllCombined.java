@@ -11,7 +11,7 @@ public class AllCombined
 		// 150 % 14 = 10
 		// 10 + 10 = 2 + 0
 		
-		System.out.println(++a + ((b-- * a) % --b) + (a-- / ++b));
+		System.out.println(++a + b-- * a % --b + a-- / ++b);
 
 
 	}
